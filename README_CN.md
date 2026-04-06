@@ -160,7 +160,7 @@ No text.
 ### Claude Code
 
 ```bash
-git clone https://github.com/yzha0302/asyre-html-presentation ~/.claude/skills/asyre-presentation
+git clone https://github.com/Qihe-agent/asyre-html-presentation ~/.claude/skills/asyre-presentation
 ```
 
 使用：
@@ -253,6 +253,6 @@ MIT License. 详见 [LICENSE](LICENSE)。
 
 ![Asyre](https://img.shields.io/badge/Asyre-Presentation-black?style=for-the-badge)
 
-Powered by [**Asyre**](https://github.com/yzha0302)
+Powered by [**Asyre**](https://github.com/Qihe-agent)
 
 </div>

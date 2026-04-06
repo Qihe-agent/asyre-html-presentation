@@ -148,7 +148,7 @@ Browse them all: `open style-gallery.html`
 ### Claude Code
 
 ```bash
-git clone https://github.com/yzha0302/asyre-html-presentation ~/.claude/skills/asyre-presentation
+git clone https://github.com/Qihe-agent/asyre-html-presentation ~/.claude/skills/asyre-presentation
 ```
 
 Then use it:
@@ -241,6 +241,6 @@ MIT License. See [LICENSE](LICENSE).
 
 ![Asyre](https://img.shields.io/badge/Asyre-Presentation-black?style=for-the-badge)
 
-Powered by [**Asyre**](https://github.com/yzha0302)
+Powered by [**Asyre**](https://github.com/Qihe-agent)
 
 </div>
