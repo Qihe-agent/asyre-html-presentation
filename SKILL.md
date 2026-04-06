@@ -242,7 +242,8 @@ Set `IMPECCABLE_CONTEXT = true` and proceed to Phase 2.
 
 Ask how they want to choose:
 
-- **"Show me options"** (recommended) — Generate 3 previews based on mood
+- **"Asyre Dark Gold"** (recommended) — The signature Asyre style: dark cinematic backgrounds, amber/gold accents, editorial serif typography, horizontal slide transitions. Pairs perfectly with AI-generated concept art backgrounds. See [ASYRE_BRAND_PRESET.md](ASYRE_BRAND_PRESET.md) for full spec.
+- **"Show me options"** — Generate 3 previews based on mood from the 53+ preset library
 - **"Browse the gallery"** — Open the local style gallery for visual browsing: `open style-gallery.html` (lightweight preview of all 50+ styles). For the full interactive gallery with live demos, visit: https://next-slide.vercel.app/gallery
 - **"I know what I want"** — Pick from preset list directly
 - **"Match this reference"** — User provides screenshot/URL, AI matches closest style
@@ -404,21 +405,49 @@ If user picks "I'll provide my own images" -> ask for image paths, proceed to St
 
 For each slide that needs a background image, generate a short image prompt. The prompt should describe an **atmospheric, abstract background** — NOT a literal illustration of the slide content.
 
-**Prompt formula:**
+**When using Asyre Dark Gold style** (recommended), follow the proven style system from [ASYRE_BRAND_PRESET.md](ASYRE_BRAND_PRESET.md):
+
+**Prompt template:**
 ```
-[mood/atmosphere] [abstract visual metaphor for slide topic], [color direction from style], 16:9 aspect ratio, dark atmospheric, suitable as presentation background with text overlay
+Abstract dark background illustration: [slide topic as visual metaphor],
+[golden/amber color direction].
+Pure black background, very subtle and ethereal, low opacity feel.
+Concept art, minimalist, suitable as a faded background image.
+No text.
 ```
 
-**Examples from real usage (亚马逊 AI 指南):**
-- Cover slide "AI 落地指南" -> "dark atmospheric digital neural network landscape, deep blue and gold highlights, 16:9"
-- "训练 vs 使用" -> "abstract split composition, two contrasting energy flows, dark tones with cyan accents, 16:9"
-- "数据安全" -> "abstract shield pattern with flowing data streams, dark navy with gold lines, 16:9"
-- "模型选型" -> "abstract geometric comparison shapes, layered translucent panels, dark background, 16:9"
+**Generation config:**
+- Model: `gemini-3-pro-image-preview` (atmosphere quality, NOT flash)
+- Aspect ratio: 16:9
+- Quality: 2K
+
+**Style rules (CRITICAL):**
+- ALWAYS `pure black background`
+- ALWAYS `amber and gold` color tone
+- ALWAYS `concept art` / `ethereal` aesthetic
+- Subject should be `semi-transparent` / `glowing edges` — designed to look good under overlay
+- ALWAYS end with `No text, no watermarks`
+
+**Anti-patterns (from Asyre IMAGE_PROMPTS):**
+- NO `photorealistic` — use concept art
+- NO `neon` / `cyan on dark` / `purple-to-blue gradient` — these are AI slop
+- NO text rendered in image — all text goes in HTML
+- NO dragons in every image (max 1-2 per deck if thematically appropriate)
+
+**Real examples (from "Taming the Blade" presentation):**
+- Power/danger → `a menacing chainsaw dissolving into golden energy particles, blade edge glowing amber`
+- Perception → `a single human eye with golden iris, dissolving into amber light particles`
+- Lost control → `golden chains shattering and dissolving into amber sparks`
+- Self-reflection → `a cracked mirror floating in black void, reflecting amber and golden light`
+- Trust → `a pair of hands slowly releasing a golden glowing leash`
+- Long-term vision → `a single eternal golden flame burning steady in absolute darkness`
+
+**For non-Asyre styles:** Adapt the prompt template to match the chosen style's color palette. Replace "amber and gold" with the style's accent colors. Keep the structure: `abstract metaphor + color direction + black/dark background + concept art + no text`.
 
 **Key principles:**
 - Each slide gets a DIFFERENT visual metaphor — never repeat the same concept
-- Dark tones work best (text overlay needs contrast)
 - Abstract > literal (don't illustrate the content, create atmosphere)
+- The metaphor should resonate with the slide's emotional intent, not its literal topic
 - Match the color direction from the chosen style preset
 - If IMPECCABLE_CONTEXT is active, align image mood with `.impeccable.md` aesthetic direction
 
@@ -772,6 +801,7 @@ Options: Deploy to URL / Export to PDF / Both / No thanks
 | [animation-patterns.md](animation-patterns.md) | Animation snippets | Phase 3 |
 | [SCENARIO_TEMPLATES.md](SCENARIO_TEMPLATES.md) | Scenario structures, narrative arcs, extra slide types | Phase 1 (when user picks a scenario) & Phase 3 |
 | [scripts/extract-pptx.py](scripts/extract-pptx.py) | PPT content extraction | Phase 4A |
+| [ASYRE_BRAND_PRESET.md](ASYRE_BRAND_PRESET.md) | Asyre Dark Gold brand style + AI image prompt system | Phase 2 (default), 2.8 |
 | [DESIGN_ELEVATION.md](DESIGN_ELEVATION.md) | How impeccable principles elevate presets and custom styles | Phase 2.5, 2.6, 3 |
 | `.impeccable.md` (project root) | Project design context — auto-detected | Phase 0, 1, 2, 3, 3.5 |
 | {{command_prefix}}frontend-design | Design principles, AI Slop Test, reference library | Phase 2.5, 3, 3.5 |

@@ -11,6 +11,10 @@
 
 [**中文版**](README_CN.md)
 
+<br>
+
+![Cover](assets/screenshots/cover-lobster.png)
+
 </div>
 
 <br>
@@ -19,52 +23,33 @@
 
 You need to present ideas to a client — a product pitch, a strategy deck, a project showcase. You open PowerPoint, fight with templates, export a PDF, and email it. The client opens it on their phone — it looks terrible.
 
-Or you spend 3 hours hand-coding a beautiful HTML page. It looks amazing, but the next client needs a completely different style. Start over.
-
 **Asyre Presentation solves this.** Describe what you want, pick a visual style, and get a production-ready HTML presentation page — single file, zero dependencies, works everywhere.
 
-## What You Get
+## What It Looks Like
 
-<!-- TODO: Screenshot — a full presentation page open in browser, showing the cover slide with dark atmospheric background -->
-<!-- ![Demo](assets/screenshots/demo-full.png) -->
+Every slide combines AI-generated concept art backgrounds with precise typography and layout — the result feels like a keynote at a dark theater, not a template from a slide library.
 
-A single `.html` file that:
-- Opens in any browser, on any device
-- Looks like a professional agency built it
-- Includes keyboard navigation, smooth animations, and responsive scaling
-- Can be deployed to a URL in one command, or sent as a file
+**Cover slide — full-bleed AI background with editorial typography:**
 
-## Real Results
+![Cover](assets/screenshots/cover-lobster.png)
 
-### Client Pitch Deck
+**Data visualization — clean layout on dark canvas:**
 
-<!-- TODO: Screenshot — pitch deck example with Bold Signal style, showing cover + one content slide side by side -->
-<!-- ![Pitch Deck](assets/screenshots/usecase-pitch.png) -->
+![Data](assets/screenshots/data-visualization.png)
 
-A startup needed to present their AI product to investors. Generated in 8 minutes with the **Bold Signal** style. Dark background, confident typography, data-driven stats slides. Deployed to a Vercel URL and shared in the meeting.
+**Content slides — each with a unique visual metaphor as background:**
 
-### Product Showcase Page
+| | |
+|---|---|
+| ![Chainsaw](assets/screenshots/slide-chainsaw.png) | ![Perception](assets/screenshots/slide-perception.png) |
 
-<!-- TODO: Screenshot — product showcase with Keynote Noir style, showing product features with AI background images -->
-<!-- ![Product Showcase](assets/screenshots/usecase-product.png) -->
+*Left: "It's a chainsaw, not a knife" — raw power metaphor. Right: "Perception > Technical skill" — eye as metaphor for awareness.*
 
-An e-commerce brand needed a visual walkthrough of their new product line for a retail partner meeting. 12 slides with AI-generated atmospheric backgrounds matching the brand's aesthetic. Delivered as a single HTML file — the partner opened it directly on their tablet.
+**Interaction and trust — atmospheric backgrounds that reinforce the message:**
 
-### Training & Workshop Deck
+![Trust](assets/screenshots/slide-trust.png)
 
-<!-- TODO: Screenshot — teaching deck with Campus White style, showing a step-by-step tutorial slide -->
-<!-- ![Training](assets/screenshots/usecase-training.png) -->
-
-A consulting firm runs AI adoption workshops for enterprise clients. Each workshop needs a customized deck. With Asyre Presentation, they generate a new deck for each client in under 15 minutes — matching the client's brand colors via `.impeccable.md`.
-
-### Conference Talk
-
-<!-- TODO: Screenshot — conference talk with Cinema Scope style, showing a full-bleed dark slide with dramatic typography -->
-<!-- ![Conference](assets/screenshots/usecase-conference.png) -->
-
-A speaker prepared a 20-slide talk on AI-native business. Each slide has a unique Gemini-generated background image — chainsaw, mirror, forge, blade — as visual metaphors for each section. The audience remembers the visuals long after the talk.
-
-> See `examples/backgrounds/` for the actual AI-generated images used in these presentations.
+*"Figure out what it's doing, then let go" — hands releasing a golden leash as trust metaphor.*
 
 ## How It Works
 
@@ -74,55 +59,42 @@ Tell the AI what your presentation is about — topic, audience, key points. Pas
 
 ### 2. Choose a Visual Style
 
-53+ curated styles across 7 categories. Browse the gallery, let the AI recommend based on mood, or generate a fully custom style from your brand's design context.
-
-<!-- TODO: Screenshot — style gallery showing 6 style thumbnails in a grid (2 dark, 2 light, 1 editorial, 1 bold) -->
-<!-- ![Style Gallery](assets/screenshots/style-gallery.png) -->
+**Asyre Dark Gold** is the default — dark cinematic backgrounds, amber/gold accents, editorial serif typography. Or pick from 53+ other curated styles:
 
 | Category | Examples | Best For |
 |----------|----------|----------|
+| **Asyre Dark Gold** | *Signature style* | Client pitches, keynotes, strategy |
 | Dark | Keynote Noir, Bold Signal, Neon Cyber | Product launches, conferences |
 | Light | Swiss Modern, Paper & Ink, Pastel Geometry | Business meetings, teaching |
 | Editorial | Editorial Serif, Fashion Editorial | Thought leadership, luxury brands |
 | Bold | Electric Studio, Pop Art, Neon Brutalism | Startups, creative pitches |
-| Retro | Art Deco Gatsby, Risograph, Vintage Poster | Stylized presentations |
+| Retro | Art Deco Gatsby, Risograph | Stylized presentations |
 | Artistic | Surrealism Gallery, Soft Dreamy | Art, design, portfolios |
 | Cultural | 东方墨韵, 和風, Blueprint, Bauhaus | Cultural events, themed decks |
 
-### 3. Add AI Background Images (Optional)
+### 3. AI Background Images (Optional)
 
-Each slide can have a unique AI-generated atmospheric background — abstract visual metaphors that add depth without distracting from the content.
+Each slide can have a unique AI-generated atmospheric background. Not literal illustrations — abstract visual metaphors that add depth.
 
-<!-- TODO: Screenshot — before/after comparison: same slide with pure CSS background vs. with AI-generated atmospheric image behind it -->
-<!-- ![Background Comparison](assets/screenshots/bg-comparison.png) -->
+The image generation follows a proven style system:
+- **Always** pure black background with amber/gold tones
+- **Always** concept art aesthetic, semi-transparent subjects
+- **Each slide** gets a different metaphor (chainsaw = power, eye = perception, mirror = reflection, flame = long-term vision)
+- **Never** photorealistic, never neon/cyan (anti AI-slop)
 
-**Opacity and overlay are tuned per slide type:**
-
-| Slide Type | Image Visibility | Purpose |
-|-----------|-----------------|---------|
-| Cover | 25-35% | Set the mood |
-| Content | 8-12% | Subtle atmosphere |
-| Section Break | 20-30% | Visual punctuation |
-| Closing | 25-35% | Emotional impact |
+See `examples/backgrounds/` for real AI-generated images from actual presentations.
 
 ### 4. Get Your Presentation
 
-A single HTML file, ready to:
-- **Open locally** — double-click to present
-- **Deploy to a URL** — `npx vercel --prod` for a shareable link
-- **Export to PDF** — for offline sharing
-- **Edit in browser** — inline editing support for last-minute changes
+A single HTML file. Open it locally, deploy to a URL with one command, or export to PDF.
 
 ## Three Levels of Customization
 
-<!-- TODO: Screenshot — 3 slides side by side showing the same content in Level 0 (pure preset), Level 1 (elevated preset), Level 2 (custom from design context) -->
-<!-- ![Three Levels](assets/screenshots/three-levels.png) -->
-
 | Level | What It Does | Speed |
 |-------|-------------|-------|
-| **Level 0: Pure Preset** | Pick from 53 styles, generate immediately | Fastest (~5 min) |
-| **Level 1: Elevated Preset** | Preset + brand-aware font/color/animation tweaks via `.impeccable.md` | Fast (~8 min) |
-| **Level 2: Custom Style** | AI synthesizes a completely new visual system from your brand context | Medium (~15 min) |
+| **Level 0: Pure Preset** | Pick from 53+ styles, generate immediately | ~5 min |
+| **Level 1: Elevated Preset** | Preset + brand-aware font/color tweaks via `.impeccable.md` | ~8 min |
+| **Level 2: Custom Style** | AI synthesizes a new visual system from your brand context | ~15 min |
 
 Every level can optionally add AI background images.
 
@@ -155,9 +127,6 @@ The `examples/backgrounds/` directory contains AI-generated images from real pre
 
 **`taming-the-blade/`** — Visual metaphors for an AI philosophy talk:
 
-<!-- TODO: Grid of 4 images from taming-the-blade: 01-chainsaw.png, 03-control.png, 05-mirror.png, 08-trust.png -->
-<!-- ![Taming the Blade](assets/screenshots/examples-blade.png) -->
-
 | Image | Metaphor |
 |-------|----------|
 | `01-chainsaw` | Raw power — AI as an uncontrolled tool |
@@ -170,27 +139,38 @@ The `examples/backgrounds/` directory contains AI-generated images from real pre
 
 **`ai-native-business/`** — Slides for an AI-native business strategy deck:
 
-<!-- TODO: Grid of 4 images from ai-native-business: s01-title.jpg, s04-replace.png, s08-forge.png, s12-blade.png -->
-<!-- ![AI Native Business](assets/screenshots/examples-business.png) -->
+| Image | Metaphor |
+|-------|----------|
+| `s01-title` | Opening statement |
+| `s02-cost` | The cost of not using AI |
+| `s04-replace` | What AI replaces |
+| `s08-forge` | Forging new capabilities |
+| `s12-blade` | The sharpened edge |
 
-These images demonstrate the approach: **abstract, atmospheric, dark-toned**, with each slide carrying a unique visual metaphor. The AI generates similar backgrounds when you choose "Every slide" in Phase 2.8.
+## Live Examples
+
+These presentations were built with Asyre Presentation and are live on our server:
+
+- **驯服利刃 (Taming the Blade)** — http://13.228.189.206/taming-the-blade/
+- **AI Native Business** — http://13.228.189.206/ai-native-business/
 
 ## File Structure
 
 ```
 asyre-html-presentation/
-├── SKILL.md                  # Core workflow (the AI reads this)
-├── DESIGN_ELEVATION.md       # How brand context elevates designs
-├── STYLE_PRESETS.md          # 53 style definitions with CSS variables
-├── html-template.md          # HTML/JS architecture, 11 slide types
-├── animation-patterns.md     # Animation reference by mood
-├── SCENARIO_TEMPLATES.md     # Narrative structures (pitch, launch, talk, teach, portfolio)
-├── viewport-base.css         # Mandatory responsive CSS
-├── style-gallery.html        # Visual style browser
-├── styles/                   # 43 reference implementations
-├── scenarios/                # 114 complete example presentations
-├── examples/backgrounds/     # Real AI-generated background images
-└── scripts/extract-pptx.py   # PowerPoint extraction tool
+├── SKILL.md                    # Core workflow (the AI reads this)
+├── ASYRE_BRAND_PRESET.md       # Asyre Dark Gold style + image prompt system
+├── DESIGN_ELEVATION.md         # How brand context elevates designs
+├── STYLE_PRESETS.md            # 53 style definitions with CSS variables
+├── html-template.md            # HTML/JS architecture, 11 slide types
+├── animation-patterns.md       # Animation reference by mood
+├── SCENARIO_TEMPLATES.md       # Narrative structures
+├── viewport-base.css           # Mandatory responsive CSS
+├── style-gallery.html          # Visual style browser
+├── styles/                     # 43 reference implementations
+├── scenarios/                  # 114 complete example presentations
+├── examples/backgrounds/       # Real AI-generated background images
+└── scripts/extract-pptx.py     # PowerPoint extraction tool
 ```
 
 ## Credits
