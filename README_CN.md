@@ -15,88 +15,145 @@
 
 ![Cover](assets/screenshots/cover-lobster.png)
 
+*驯服利刃 — 与 AI Agent 共处的 10 个认知。用 Asyre Presentation 制作。*
+
 </div>
 
 <br>
 
-## 我们要解决的问题
+---
 
-你需要给客户展示一个方案 —— 产品介绍、策略汇报、项目 showcase。打开 PPT，跟模板较劲，导出 PDF，发邮件。客户在手机上打开 —— 排版全乱了。
+## 为什么做这个
 
-**Asyre Presentation 解决这个问题。** 描述你的内容，选一个视觉风格，得到一个可直接交付的 HTML 展示页 —— 单文件、零依赖、任何设备都能打开。
+你需要给客户展示一个方案。打开 PPT，跟模板较劲，导出 PDF，发邮件。客户在手机上打开 —— 排版全乱了。
+
+**Asyre Presentation 解决这个问题。** 描述内容，选风格，得到一个可交付的 HTML 展示页 —— 单文件、零依赖、任何设备打开。
+
+但我们不只是「快速做幻灯片」。我们构建了一套完整的**品牌视觉体系**，从 HTML 布局到 AI 生成的底图，确保你做的每一份演示都有一致的品牌感。
+
+---
 
 ## 实际效果
 
-每页都融合了 AI 生成的概念艺术底图和精准的排版布局 —— 效果像是在暗色剧场里做 keynote，不是从模板库里拿的东西。
+每页都融合了 AI 生成的概念艺术底图和精准排版 —— 效果像在暗色剧场做 keynote，不是从模板库拿的东西。
 
-**封面 — 全幅 AI 底图 + 编辑级排版：**
+### 驯服利刃 — 与 AI Agent 共处的 10 个认知
 
-![Cover](assets/screenshots/cover-lobster.png)
+一场关于如何与 AI 共处的哲学性演讲。10 页，每页一个独特的视觉隐喻。
 
-**数据可视化 — 深色画布上的清晰布局：**
+![封面](assets/screenshots/cover-lobster.png)
 
-![Data](assets/screenshots/data-visualization.png)
+*封面：金色巨型龙虾 —— 力量与未知的隐喻。Noto Serif SC 标题字体，纯黑背景，72% 暗色遮罩。*
+
+![数据可视化](assets/screenshots/data-visualization.png)
+
+*「81 亿人里，你在哪？」—— 2500 个点代表 81 亿人类，用色块区分 AI 使用深度。数据冲击力 + 干净的信息层次。*
 
 **内容页 — 每页都有独特的视觉隐喻作为底图：**
 
 | | |
 |---|---|
-| ![Chainsaw](assets/screenshots/slide-chainsaw.png) | ![Perception](assets/screenshots/slide-perception.png) |
+| ![电锯](assets/screenshots/slide-chainsaw.png) | ![觉察力](assets/screenshots/slide-perception.png) |
 
-*左：「它是电锯，不是刀」—— 原始力量的隐喻。右：「觉察力 > 技术力」—— 用眼睛隐喻感知力。*
+*左：「它是电锯，不是刀」—— 01 章节，电锯溶解为金色能量粒子。右：「觉察力 > 技术力」—— 02 章节，金色虹膜的眼睛。*
 
-**信任与交互 — 氛围底图强化信息表达：**
+| | |
+|---|---|
+| ![镜子](assets/screenshots/cn-mirror.png) | ![三层记忆](assets/screenshots/cn-memory-layers.png) |
 
-![Trust](assets/screenshots/slide-trust.png)
+*左：「它是你的镜子」—— 05 章节，碎裂的镜子映射自我。右：「三层记忆：向量库 × 文件 × 你的脑子」—— 06 章节，三层透明结构。*
 
-*「先搞清楚它在干什么，再放手」—— 双手释放金色缰绳，信任的隐喻。*
+![信任](assets/screenshots/slide-trust.png)
 
-## 工作流程
+*「先搞清楚它在干什么，再放手」—— 08 章节，双手释放金色缰绳。*
 
-### 1. 描述你的内容
+### AI Native Business Practice
 
-告诉 AI 你的展示页是关于什么的 —— 主题、受众、核心要点。可以贴笔记、传 Markdown 文件，甚至导入一个 PowerPoint 转换。
+一份英文策略展示，解释 AI 如何改变商业运作。12 页，每页一个隐喻。
 
-### 2. 选择视觉风格
+![成本分析](assets/screenshots/en-cost-chart.png)
 
-**Asyre Dark Gold** 是默认推荐 —— 深色电影感背景、琥珀金色调、编辑衬线字体。或从 53+ 其他精选风格中挑选：
+*「一个人类员工到底花多少钱？」—— 堆叠柱状图 + The Rule of Thumb 计算。金色硬币堆叠作为财务重量的隐喻。*
+
+![铁匠隐喻](assets/screenshots/en-blacksmith.png)
+
+*「模型是铁。OpenAI、Anthropic、Google —— 他们是铁匠。你的工作不是打铁，是知道你要切什么。」全幅锻造场景。*
+
+---
+
+## Asyre 品牌体系
+
+大多数演示工具给你模板。我们给你**品牌身份系统**。
+
+### 体系包含什么
+
+**1. Asyre Dark Gold** —— 我们的签名视觉风格，从真实的客户演示和大会演讲中提炼。
+
+| 元素 | 规格 |
+|------|------|
+| 背景 | `#0a0a0b` 纯黑 |
+| 主色 | `#c4a35a` 琥珀金 |
+| 中文标题 | Noto Serif SC (900) |
+| 英文标题 | Space Grotesk (600/700) + Instrument Serif (斜体) |
+| 正文 | Noto Sans SC / Space Grotesk (300/400) |
+| 过渡动效 | 水平推进 + expo 缓动 |
+| 布局 | 左对齐、不对称、充裕的内边距 |
+
+完整定义在 [`ASYRE_BRAND_PRESET.md`](ASYRE_BRAND_PRESET.md) 中，包含 CSS 变量、字体栈、签名元素、动效参数。
+
+**2. AI 生图风格系统** —— 经过实战验证的 Gemini 概念艺术提示模板：
+
+```
+Abstract dark background illustration: [视觉隐喻],
+[金色/琥珀色调描述].
+Pure black background, very subtle and ethereal, low opacity feel.
+Concept art, minimalist, suitable as a faded background image.
+No text.
+```
+
+规则：
+- 始终纯黑背景 + 琥珀金色调
+- 始终概念艺术风格，半透明主体 + 发光边缘
+- 每页不同隐喻（锤子 = 力量，眼睛 = 感知，镜子 = 反思，火焰 = 愿景）
+- 绝不写实风格，绝不 neon/cyan（反 AI slop）
+
+**3. 构建你自己的品牌预设** —— 不想用 Asyre 风格？用内置的品牌上下文工作流创建你自己的：
+
+1. 回答 3 个问题：受众、品牌个性（3 个词）、美学方向
+2. 生成 `.impeccable.md` 设计上下文文件
+3. AI 会用它来定制字体、配色、动效 —— 即使从一个预设开始
+
+或者运行 `/teach-impeccable` 获得完整的设计上下文体验 —— 包含代码库探索和详细的 UX 问卷。
+
+### 三级定制深度
+
+| 级别 | 做什么 | 速度 | 品牌一致性 |
+|------|-------|------|-----------|
+| **Level 0: 纯预设** | 选 Asyre Dark Gold 或 53+ 其他风格 | ~5 分钟 | 模板级 |
+| **Level 1: 预设提升** | 预设 + 通过 `.impeccable.md` 品牌微调 | ~8 分钟 | 品牌对齐 |
+| **Level 2: 自定义风格** | AI 从品牌上下文合成全新视觉体系 | ~15 分钟 | 完全品牌化 |
+
+每级都可叠加 AI 背景图。每级都输出单个自包含 HTML 文件。
+
+---
+
+## 53+ 风格库
+
+除了 Asyre 签名风格，还有 53 个精选预设覆盖 7 大类别：
 
 | 类别 | 代表风格 | 适用场景 |
 |------|---------|---------|
-| **Asyre Dark Gold** | *签名风格* | 客户方案、演讲、策略汇报 |
-| 暗色 | Keynote Noir, Bold Signal, Neon Cyber | 产品发布、大会演讲 |
-| 亮色 | Swiss Modern, Paper & Ink, Pastel Geometry | 商务会议、教学培训 |
-| 编辑风 | Editorial Serif, Fashion Editorial | 思想领导力、奢侈品牌 |
-| 大胆创意 | Electric Studio, Pop Art, Neon Brutalism | 创业路演、创意推介 |
+| 暗色 | Keynote Noir, Bold Signal, Neon Cyber | 产品发布、大会 |
+| 亮色 | Swiss Modern, Paper & Ink, Pastel Geometry | 商务、教学 |
+| 编辑风 | Editorial Serif, Fashion Editorial | 思想领导力、奢侈品 |
+| 大胆创意 | Electric Studio, Pop Art, Neon Brutalism | 创业路演 |
 | 复古 | Art Deco Gatsby, Risograph | 风格化展示 |
-| 艺术 | Surrealism Gallery, Soft Dreamy | 艺术设计、作品集 |
-| 文化特色 | 东方墨韵, 和風, Blueprint, Bauhaus | 文化活动、主题展示 |
+| 艺术 | Surrealism Gallery, Soft Dreamy | 设计、作品集 |
+| 文化特色 | 东方墨韵, 和風, Blueprint, Bauhaus | 文化活动 |
 
-### 3. AI 氛围底图（可选）
+浏览所有风格：`open style-gallery.html`
 
-每一页都可以有独特的 AI 生成氛围背景。不是字面插图 —— 是抽象的视觉隐喻，增加层次感。
-
-生图遵循经过实战验证的风格系统：
-- **始终** 纯黑背景 + 琥珀金色调
-- **始终** 概念艺术风格，半透明主体
-- **每页** 不同的隐喻（电锯 = 力量，眼睛 = 感知，镜子 = 反思，火焰 = 长期主义）
-- **绝不** 写实风格，绝不 neon/cyan（反 AI slop）
-
-查看 `examples/backgrounds/` 目录获取真实演讲中使用的 AI 生成图片。
-
-### 4. 获得你的展示页
-
-一个 HTML 文件。本地打开、一条命令部署到 URL、或导出 PDF。
-
-## 三级定制深度
-
-| 级别 | 做什么 | 速度 |
-|------|-------|------|
-| **Level 0: 纯预设** | 从 53+ 个风格中选一个，直接生成 | ~5 分钟 |
-| **Level 1: 预设提升** | 预设 + 通过 `.impeccable.md` 品牌化微调 | ~8 分钟 |
-| **Level 2: 自定义风格** | AI 从品牌上下文合成全新视觉体系 | ~15 分钟 |
-
-每个级别都可以叠加 AI 背景图。
+---
 
 ## 安装
 
@@ -121,38 +178,43 @@ clawhub install asyre-presentation
 
 将 `SKILL.md` 作为 system prompt，引用支持文件即可。
 
+---
+
 ## 示例底图
 
-`examples/backgrounds/` 目录包含真实演讲中使用的 AI 生成图片：
+`examples/backgrounds/` 目录包含真实演讲中使用的 AI 生成图片。
 
-**`taming-the-blade/`** — AI 哲学演讲的视觉隐喻系列：
+**`taming-the-blade/`** — AI 哲学演讲（中文）：
 
 | 图片 | 隐喻 |
 |------|------|
-| `01-chainsaw` | 原始力量 — AI 如同未驯服的电锯 |
-| `02-perception` | 我们如何看待 AI |
+| `01-chainsaw` | 原始力量 — 未驯服的电锯 |
 | `03-control` | 掌握控制权 |
 | `05-mirror` | AI 映射创造者 |
-| `06-memory` | AI 记住了什么 |
-| `08-trust` | 建立与 AI 的信任 |
+| `06-memory` | 三层记忆系统 |
+| `08-trust` | 建立信任 |
 | `10-eternal` | 长期博弈 |
 
-**`ai-native-business/`** — AI 原生商业策略演讲：
+**`ai-native-business/`** — 商业策略演讲（英文）：
 
 | 图片 | 隐喻 |
 |------|------|
-| `s01-title` | 开场宣言 |
-| `s02-cost` | 不用 AI 的代价 |
-| `s04-replace` | AI 替代了什么 |
-| `s08-forge` | 锻造新能力 |
+| `s01-title-hammer` | 塑造未来的工具 |
+| `s02-cost` | 人力的财务重量 |
+| `s04-replace` | 变革的螺旋 |
+| `s08-forge` | 铁匠的锻造炉 |
 | `s12-blade` | 磨利的刃 |
+
+---
 
 ## 在线示例
 
-以下展示页由 Asyre Presentation 制作，已部署在服务器上：
+以下展示页由 Asyre Presentation 制作，已部署上线：
 
 - **驯服利刃** — http://13.228.189.206/taming-the-blade/
 - **AI Native Business** — http://13.228.189.206/ai-native-business/
+
+---
 
 ## 文件结构
 
@@ -170,6 +232,7 @@ asyre-html-presentation/
 ├── styles/                     # 43 个风格参考实现
 ├── scenarios/                  # 114 个完整示例演示
 ├── examples/backgrounds/       # 实战 AI 生成底图
+├── assets/screenshots/         # README 配图
 └── scripts/extract-pptx.py     # PowerPoint 提取工具
 ```
 
